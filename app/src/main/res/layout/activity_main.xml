@@ -25,6 +25,7 @@
         android:layout_gravity="center"
         android:text="Meal Dashboard"
         android:textAllCaps="false"
+        android:onClick="mealdash"
         android:background="@drawable/mybutton"/>
     <Button
         android:id="@+id/depo"
