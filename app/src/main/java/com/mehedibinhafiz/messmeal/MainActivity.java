@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity {
         Intent meal = new Intent(MainActivity.this,deposite.class);
         startActivity(meal);
     }
+    public void Expense(View view){
+        Intent meal = new Intent(MainActivity.this,Expense.class);
+        startActivity(meal);
+    }
 }
