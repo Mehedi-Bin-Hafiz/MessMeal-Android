@@ -33,6 +33,7 @@
         android:layout_width="@dimen/_200sdp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:onClick="deposit"
         android:text="Deposit"
         android:textAllCaps="false"
         android:background="@drawable/mybutton"/>
