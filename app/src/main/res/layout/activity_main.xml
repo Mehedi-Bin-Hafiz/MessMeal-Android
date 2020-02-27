@@ -4,7 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/sky">
+
+    <TextView
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mess Management system"
+        android:textColor="@color/nearyello"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_30sdp"/>
+    <Button
+        android:id="@+id/mealdash"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Meal Dashboard"
+        android:textAllCaps="false"
+        android:background="@drawable/mybutton"/>
+    <Button
+        android:id="@+id/depo"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Deposit"
+        android:textAllCaps="false"
+        android:background="@drawable/mybutton"/>
+    <Button
+        android:id="@+id/ex"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Expense"
+        android:background="@drawable/mybutton"/>
+
 
 
 
